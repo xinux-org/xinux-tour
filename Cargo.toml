@@ -1,0 +1,20 @@
+[package]
+name = "gnome-tour"
+authors = ["Bilal Elmoussaoui <bil.elmoussaoui@gmail.com>"]
+version = "1.0.2"
+edition = "2021"
+license = "AGPL-3.0"
+description = "E-IMZO for uzbek state web key signing on Linux"
+homepage = "https://github.com/xinux-org"
+repository = "https://github.com/xinux-org/e-imzo"
+readme = "README.md"
+
+
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.10", features = ["gnome_47"] }
+log = "0.4"
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+adw = { package = "libadwaita", version = "0.8" }
+env_logger = "0.11"
+regex = "1.10"
