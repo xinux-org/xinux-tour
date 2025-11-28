@@ -17,5 +17,6 @@ repo
 *.swp
 *.mo
 .cargo
+
 .idea
 /.vscode
