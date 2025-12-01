@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-02-09 16:52+0000\n"
-"PO-Revision-Date: 2022-07-30 22:53+0300\n"
-"Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-28 17:01+0500\n"
+"PO-Revision-Date: 2025-12-01 21:58+0500\n"
+"Last-Translator: BeMeritus <bemerituss@gmail.com>\n"
 "Language-Team: Russian <Alexmelman88@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -23,18 +23,18 @@ msgstr ""
 "X-DL-Branch: master\n"
 "X-DL-Domain: po\n"
 "X-DL-State: Translated\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:2 data/org.gnome.Tour.metainfo.xml.in.in:7
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Экскурсия"
 
-#: data/org.gnome.Tour.desktop.in.in:4
+#: data/org.gnome.Tour.desktop.in.in:3
 msgid "Greeter & Tour"
 msgstr "Приветствие и Экскурсия"
 
-#: data/org.gnome.Tour.desktop.in.in:9
+#: data/org.gnome.Tour.desktop.in.in:8
 msgid "Gnome;GTK;"
 msgstr "Gnome;GTK;Гном;ГТК;"
 
@@ -46,8 +46,17 @@ msgstr "Экскурсия и Приветствие GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Управляемая экскурсия и приветствие для GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "Updated translations."
+msgstr "Обновленные переводы."
+
+#: data/org.gnome.Tour.metainfo.xml.in.in:37
+msgid "String improvements and updated translations."
+msgstr "Улучшения строк и обновленные переводы."
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:58
+#: data/org.gnome.Tour.metainfo.xml.in.in:60
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
 
@@ -77,8 +86,8 @@ msgid ""
 "The overview shows all your apps and windows. Press the Super (Windows) key "
 "to open it."
 msgstr ""
-"В Обзоре отображаются все ваши приложения и окна. Нажмите клавишу Super (Windows) "
-"чтобы открыть его."
+"В Обзоре отображаются все ваши приложения и окна. Нажмите клавишу Super "
+"(Windows) чтобы открыть его."
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
@@ -89,8 +98,8 @@ msgid ""
 "To search, just start typing in the overview. You can use search to launch "
 "apps, find files, perform calculations, and more."
 msgstr ""
-"Для поиска просто начните вводить текст в Обзоре. С помощью поиска можно запускать "
-"приложения, находить файлы, выполнять вычисления и многое другое."
+"Для поиска просто начните вводить текст в Обзоре. С помощью поиска можно "
+"запускать приложения, находить файлы, выполнять вычисления и многое другое."
 
 #: data/resources/ui/window.ui:31
 msgid "Stay Organized With Workspaces"
@@ -112,7 +121,8 @@ msgstr "Проведите вверх и вниз"
 msgid ""
 "To quickly open the overview with a touchpad, swipe up with three fingers."
 msgstr ""
-"Чтобы быстро открыть Обзор с помощью сенсорной панели, проведите тремя пальцами вверх."
+"Чтобы быстро открыть Обзор с помощью сенсорной панели, проведите тремя "
+"пальцами вверх."
 
 #: data/resources/ui/window.ui:45
 msgid "Swipe Left and Right"
@@ -120,23 +130,60 @@ msgstr "Проведите влево и вправо"
 
 #: data/resources/ui/window.ui:46
 msgid "To move between workspaces, swipe three fingers horizontally."
-msgstr "Чтобы перемещаться между Рабочими столами, проведите тремя пальцами по горизонтали."
+msgstr ""
+"Чтобы перемещаться между Рабочими столами, проведите тремя пальцами по "
+"горизонтали."
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:66
+msgid "Xeonitte"
+msgstr "Xeonitte"
+
+#: data/resources/ui/window.ui:67
+msgid "A graphical installer for NixOS based distributions."
+msgstr "Графический инсталлятор для дистрибутивов на основе NixOS."
+
+#: data/resources/ui/window.ui:73
+msgid "E-imzo Manager"
+msgstr "E-imzo Manager"
+
+#: data/resources/ui/window.ui:74
+msgid "A graphical e-imzo keys manager for NixOS based distributions."
+msgstr "Графический менеджер ключей e-imzo для дистрибутивов на базе NixOS."
+
+#: data/resources/ui/window.ui:80
+msgid "Software Center"
+msgstr "Software Center"
+
+#: data/resources/ui/window.ui:81
+msgid "A graphical app store for Nix built with libadwaita, GTK4, and Relm4."
+msgstr ""
+"Магазин графических приложений для Nix, построенный с использованием "
+"libadwaita, GTK4 и Relm4."
+
+#: data/resources/ui/window.ui:87
+msgid "Uzbek Keyboard"
+msgstr "Узбекская клавиатура"
+
+#: data/resources/ui/window.ui:88
+msgid ""
+"Uzbek Typographic Keyboard Sets with all types of punctuation marks in Uzbek "
+"writing. "
+msgstr ""
+"Узбекская типографская клавиатура Комплекты со всеми видами знаков "
+"препинания в узбекской письменности. "
+
+#: data/resources/ui/window.ui:94
 msgid "That's It!"
 msgstr "Вот и всё!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:95
 msgid "To get more advice and tips, see the Help app."
 msgstr ""
 "Чтобы получить дополнительные советы и рекомендации, обратитесь к приложению "
 "Справка."
 
-#. Translators: The following string is formatted as "Learn about new and essential
-#. features in GNOME 3.36" for example
-#: src/widgets/window.rs:69
-msgid "Learn about the key features in {name} {version}."
-msgstr "Узнайте о ключевых функциях в {name} {version}."
+#~ msgid "Learn about the key features in {name} {version}."
+#~ msgstr "Узнайте о ключевых функциях в {name} {version}."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Начать Экскурсию"
